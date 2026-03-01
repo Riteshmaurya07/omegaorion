@@ -1,0 +1,46 @@
+.employee-card {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    /* Exact from Figma */
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    height: 100%;
+}
+
+.employee-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.employee-avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+}
+
+.badge-icon {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--text-primary);
+    font-size: 14px;
+    /* Icon styling inside the white badge */
+}
+
+.employee-name {
+    color: var(--text-primary);
+    font-size: 15px;
+}
+
+.employee-role {
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+}

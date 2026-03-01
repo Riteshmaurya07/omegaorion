@@ -1,0 +1,45 @@
+:root {
+  --sidebar-bg: #3d3936;
+  /* Exact dark grey from Figma */
+  --sidebar-text: #a4a1a0;
+  --sidebar-text-active: #3d3936;
+  --sidebar-active-bg: #ffffff;
+
+  --bg-color: #f8f9fa;
+  /* Light grey background for main area */
+  --text-primary: #1a1a1a;
+  --text-secondary: #6c757d;
+
+  --border-color: #e9ecef;
+  --card-radius: 16px;
+
+  /* Primary brand colors */
+  --primary-color: #3c3735;
+  --primary-hover: #2b2725;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--sidebar-bg);
+  color: var(--text-primary);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
