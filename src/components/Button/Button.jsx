@@ -1,15 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const Button = ({ children, variant = 'primary', className = '', ...props }) => {
+export default function Button({ children, variant = 'primary', className = '', ...rest }) {
+    const classes = ['btn', 'custom-btn', `custom-btn-${variant}`, className].filter(Boolean).join(' ');
+
     return (
-        <button
-            className={`btn custom-btn custom-btn-${variant} ${className}`}
-            {...props}
-        >
+        <button className={classes} {...rest}>
             {children}
         </button>
     );
-};
-
-export default Button;
+}

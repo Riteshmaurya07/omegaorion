@@ -21,6 +21,10 @@ src/
  ┃ ┣ Navbar/
  ┃ ┃ ┣ Navbar.jsx
  ┃ ┃ ┗ Navbar.css
+ ┃ ┣ Sidebar/
+ ┃ ┃ ┗ Sidebar.jsx
+ ┃ ┣ Toolbar/
+ ┃ ┃ ┗ Toolbar.jsx
  ┃ ┣ Card/
  ┃ ┃ ┣ Card.jsx
  ┃ ┃ ┗ Card.css
@@ -30,6 +34,8 @@ src/
  ┃ ┗ Footer/
  ┃   ┣ Footer.jsx
  ┃   ┗ Footer.css
+ ┣ data/
+ ┃ ┗ mockData.jsx
  ┣ pages/
  ┃ ┣ ScreenOne/
  ┃ ┃ ┣ ScreenOne.jsx

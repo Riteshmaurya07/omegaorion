@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ employee }) => {
+export default function Card({ employee }) {
     const { name, role, avatar, statusDots, badgeIcon } = employee;
 
     return (
@@ -23,11 +23,9 @@ const Card = ({ employee }) => {
                         key={idx}
                         className="status-dot rounded-circle"
                         style={{ backgroundColor: color }}
-                    ></span>
+                    />
                 ))}
             </div>
         </div>
     );
-};
-
-export default Card;
+}

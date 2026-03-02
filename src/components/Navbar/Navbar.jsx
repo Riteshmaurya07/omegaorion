@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { FiEdit, FiMail, FiMenu } from 'react-icons/fi';
 
-const Navbar = ({ title, onMenuClick }) => {
+export default function Navbar({ title, onMenuClick }) {
     return (
         <header className="top-navbar d-flex align-items-center justify-content-between px-4 py-3">
             <div className="d-flex align-items-center gap-2">
@@ -23,12 +23,9 @@ const Navbar = ({ title, onMenuClick }) => {
                     </span>
                 </button>
                 <div className="user-avatar ms-2">
-                    {/* Using a placeholder avatar image */}
-                    <img src="https://i.pravatar.cc/150?u=admin" alt="User" />
+                    <img src="https://i.pravatar.cc/150?u=admin" alt="User avatar" />
                 </div>
             </div>
         </header>
     );
-};
-
-export default Navbar;
+}
